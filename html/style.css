@@ -7,9 +7,7 @@
 body {
 	font-family: main, arial;
 	background-image: url(bg.png);
-	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 1366px, 768px;
 	height: 99%;
 	width: 99%;
 	margin: 0;
@@ -18,8 +16,8 @@ body {
 
 a {
 	font-family: main, arial;
-	text-decoration: none;
 	border: none;
+	color: black;
 }
 
 h1 {
@@ -32,13 +30,6 @@ font-weight: normal
 
 h3 {
 font-weight: normal
-}
-
-.url {
-	font-family: main, arial;
-	text-decoration: underline;
-	border: none;
-	color: black;
 }
 
 .content {
@@ -61,7 +52,7 @@ font-weight: normal
 .main {
 	display: block;
 	width: 80%;
-	height: 690px;s
+	height: 1024px;
 	max-height: 2007px;
 	margin-top: -18px;
 	background-image: url(divbg.png);
