@@ -1,0 +1,286 @@
+/**
+ * Game calendar
+ */
+
+#gameCalendar {
+overflow: hidden;
+position: relative;
+float:left;
+width:488px;
+height: 182px;
+background: url('/web/20100710022228im_/http://www.nintendo.com/images/home/game-release-bkd.png') top right no-repeat;
+}
+#gameCalendar h3 {
+font-size:1.1em;
+font-weight:bold;
+height:21px;
+padding:9px 0px 0px;
+text-align:center;
+width:100%;
+}
+
+#gameCalendar #table_scroll{
+width: 100%;
+height: 120px;
+overflow:auto;
+display:block;
+}
+#gameCalendar #table_scroll table{
+	width:100%;
+}
+#gameCalendar thead,
+#gameCalendar caption,
+#gameCalendar tfoot{
+display:none;
+}
+
+#gameCalendar tbody tr {
+padding: 0;
+margin: 0;
+background-color: #f5f5f5;
+}
+#gameCalendar #table_scroll table td {
+margin: 0;
+height: 24px;
+line-height:24px;
+padding:0px 0px 0px 18px;
+background:url(/web/20100710022228im_/http://www.nintendo.com/images/games/releasecalendar/bullet.png) no-repeat 5px 8px;
+}
+
+
+
+
+#gameCalendar #table_scroll table td.release,
+#gameCalendar #table_scroll table tr.zebra td.release{
+	text-align:right;
+	padding: 0 25px 0 0;
+	background-image:none;
+	min-width: 80px;
+}
+#gameCalendar #table_scroll tr.zebra td{
+	background-color: #e8e8e8;
+}
+#gameCalendar .continue{/*
+	margin-top: 12px;*/
+	padding-right: 12px;
+}
+
+
+/* Tabbed browsing for Game Release Calendar and What's New */
+
+.shadetabs{
+height:21px;
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: 10px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+height:21px;
+z-index: 1;
+padding: 14px 7px;
+margin-right: 3px;
+/*border: 1px solid #778;*/
+color: #666666;
+background: #F5F5F5 top left repeat-x;
+}
+
+.shadetabs li a:visited{
+color: #666666;
+height:21px;
+}
+
+.shadetabs li a:hover{
+background: #F5F5F5 top left repeat-x;
+text-decoration: underline;
+color: #666666;
+height:21px;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+position: relative;
+background: #F5F5F5 top left repeat-x;
+top: 1px;
+height:21px;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+background-color: #e8e8e8;
+border-bottom-color: white;
+height:21px;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+height:21px;
+}
+
+.tabArea {
+  background-color: #c0c0c0;
+  border: 1px solid #000000;
+  padding: 1em;
+}
+
+.iframeContainer {
+  width: 100%;
+}
+
+iframe.tpipe {
+  background-color: #c0c0c0;
+  border: 1px solid #000000;
+  width: 100%;
+}
+
+/* @majorPromos */ 
+#dynNew {
+	width: 980px;
+	margin-bottom: 12px;
+	
+	overflow: auto;
+}
+#dynNew .promo {
+	width: 485px;
+	height: 230px;
+	
+  float: left;
+}
+#dynNew .one {
+  width: 326px;
+
+  background: url(/web/20100710022228im_/http://www.nintendo.com/images/home/major-promo-1-bkd.png) no-repeat transparent;
+}
+#dynNew .two {
+  background: url(/web/20100710022228im_/http://www.nintendo.com/images/home/major-promo-2-bkd.png) no-repeat transparent;
+}
+
+#dynNew .two a.continue {
+  margin-right: 13px;
+}
+
+#dynNew .news {
+  background: transparent;  
+}
+#dynNew .news ul {
+	height: 125px;
+	
+	overflow:auto;
+}
+#dynNew .news li{
+  min-height:30px;
+	height:auto;
+  padding:7px 10px 0pt 0px;
+
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+
+  color:#959595;
+
+	background-color: #eeeeee;
+}
+#dynNew .news li.zebra{
+	background-color: #f8f8f8;
+}
+#dynNew .news li a{
+	margin-left: 12px;
+	
+	display:block;	
+}
+#dynNew .news li span.releaseDate {
+	padding-left: 22px;
+}
+
+
+/* @majorPromos */ 
+#dynENP {
+	width: 980px;
+	margin-bottom: 12px;
+	
+	overflow: auto;
+}
+#dynENP .promo {
+	width: 485px;
+	height: 230px;
+	
+  float: left;
+}
+#dynENP .one {
+  width: 326px;
+
+  background: url(/web/20100710022228im_/http://www.nintendo.com/images/home/major-promo-1-bkd.png) no-repeat transparent;
+}
+#dynENP .two {
+  background: url(/web/20100710022228im_/http://www.nintendo.com/images/home/major-promo-2-bkd.png) no-repeat transparent;
+}
+
+#dynENP .two a.continue {
+  margin-right: 13px;
+}
+
+#dynENP .news {
+  background: transparent;  
+}
+#dynENP .news ul {
+	height: 125px;
+	
+	overflow:auto;
+}
+#dynENP .news li{
+  min-height:30px;
+	height:auto;
+  padding:7px 10px 0pt 0px;
+
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+
+  color:#959595;
+
+	background-color: #eeeeee;
+}
+#dynENP .news li.zebra{
+	background-color: #f8f8f8;
+}
+#dynENP .news li a{
+	margin-left: 12px;
+	
+	display:block;	
+}
+#dynENP .news li span.releaseDate {
+	padding-left: 22px;
+}
+
+
+
+
+/*
+     FILE ARCHIVED ON 02:22:28 Jul 10, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:17:06 Nov 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.679
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.012
+  esindex: 0.012
+  cdx.remote: 8.619
+  LoadShardBlock: 127.556 (3)
+  PetaboxLoader3.datanode: 110.843 (4)
+  load_resource: 204.062
+  PetaboxLoader3.resolve: 153.209
+*/

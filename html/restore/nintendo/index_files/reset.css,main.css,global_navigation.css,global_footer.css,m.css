@@ -1,0 +1,1253 @@
+
+
+/*
+ * Reset Stylesheet
+ * Creates a baseline that smooths out differences imposed by various default browser styles
+ *
+ * Thanks to http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+ */
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+
+/**
+ * Global Stylesheet
+ */
+
+/* For information on what this font-size and em stuff is all about */
+/* Visit the following articles: */
+/* http://ryanwerth.com/blog/article/22/ems-revisited-part-ii-making-ems-more-usable */
+/* http://www.clagnut.com/blog/348/ */
+
+body {
+  font-size: 62.5%;
+}
+
+/**
+ * Utility styles
+ */
+
+.hide {
+  display: none;
+}
+
+/**
+ * Layout styles
+ * @description Global positioning and sizing styles
+ */
+
+.promoHotSpot {
+	cursor: pointer;
+}
+
+#container {
+  text-align: left;
+  position: relative;
+  width: 980px;
+  padding: 0 8px; /* shadow pad */
+  margin: 0 auto;
+}
+
+#mainContentContainer {
+  overflow: hidden;
+  margin: 0 -8px;
+  padding: 0 8px;
+	
+	_overflow: auto;
+}
+
+/**
+ * Header styles
+ * @description Global overrides for <H#> tags
+ */
+ 
+h1, h2 { /* present in the source, but never visible */
+	display: none;
+}
+
+h1.sectionName,
+h1.sectionName {
+  width: 980px;
+  display:block;
+	position:absolute;
+	top:110px;
+	left:10px;
+	display:block;
+}
+
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+/**
+ * Typography
+ * @description Global overrides for <H#> tags
+ */
+
+body {
+  font-family: 'Lucida Grande', Tahoma, 'Lucida Sans', 'Trebuchet MS', sans-serif;
+  line-height: 1.4em;
+  color: #333;
+}
+
+strong{
+}
+em{
+}
+b{
+}
+i{
+}
+
+
+/**
+ * Paragraph styles
+ * @description Global overrides for <p> tags
+ */
+
+p{
+font:;
+color:;
+
+font-size:;
+font-family:;
+font-style:;
+font-weight:;
+font-variant:;
+
+text-align:;
+text-indent:;
+text-decoration:;
+text-shadow:;
+text-transform:;
+
+letter-spacing:;
+word-spacing:;
+}
+
+/**
+ * Quote styles
+ * @description Global overrides for <blockquote> and <cite> tags
+ */
+ 
+blockquote{
+margin:;
+padding:;
+background-color:;
+font:;
+color:;
+}
+blockquote p{
+}
+cite{
+font:;
+color:;
+}
+blockquote cite{
+}
+
+/**
+ * Code styles
+ * @description Global overrides for <pre> and <code> tags
+ */
+
+pre{
+margin:;
+padding:;
+background-color:;
+border:;
+font-size:;
+overflow:;
+}
+code{
+font-size:;
+}
+p code{
+}
+pre code{
+}
+
+/**
+ * List styles
+ * @description Global overrides for <ul> <ol> and <li> tags
+ */
+
+li{
+list-style-type:;
+list-style-image:;
+list-style-position:;
+float:;
+margin:;
+padding:;
+
+}
+li p{
+}
+ol{
+width:;
+margin:;
+padding:;
+}
+ul{
+width:;
+margin:;
+padding:;
+}
+ol li{
+}
+ul li{
+}
+
+/**
+ * Image styles
+ * @description Global overrides for <img> tags
+ */
+
+img{
+border:0;
+}
+img a{
+border:;
+text-decoration:;
+}
+img a:hover{
+border:;
+}
+
+/**
+ * Break styles
+ * @description Global overrides for <hr> tags
+ */
+
+hr{
+border:none;
+color: transparent;
+background:transparent;
+}
+
+/**
+ * Link styles
+ * @description Global overrides for <a> tags
+ */
+
+a{
+font-weight: bold;
+color:#0090C7;
+text-decoration:none;
+border-bottom:;
+}
+a:hover{
+color:#00587A;
+background-color:;
+border-bottom:;
+}
+a:visited, a:active, a:focus{
+color:;
+background-color:;
+border-bottom:;
+}
+a:visited{
+color:;
+background-color:;
+border-bottom:;
+}
+a:active{
+color:;
+background-color:;
+border-bottom:;
+}
+a:focus{
+color:;
+background-color:;
+border-bottom:;
+}
+#primaryNav a{
+	color:#707070;
+}
+a.imagelink img {
+  display: block;
+}
+p a{
+}
+cite a{
+}
+li a{
+}
+dt a{
+}
+dd a{
+}
+
+a.continue {
+  float: right;
+  margin-top: 7px;
+}
+
+a.more {
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height: 0px !important;
+
+	display: block;
+	position: absolute;
+    
+  padding: 46px 0 0 0;
+  height /**/: 46px;
+  width: 46px;
+    
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/icons/large-link.gif');
+  
+  bottom: 9px;
+  right: 8px;
+}
+
+
+.wii a.hoverbig,
+.wii a.more.hover {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/icons/large-blue-link.gif') !important;
+}
+
+.ds a.hoverbig,
+.ds a.more.hover {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/icons/large-pink-link.gif') !important;
+}
+
+
+a.mini,
+.ds a.mini,
+.wii a.mini,
+#sidebar .menu li.ds a.mini,
+#sidebar .menu li.wii a.mini {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/icons/small-link.gif');
+  padding: 33px 0 0 0;
+  height /**/: 33px;
+  width: 33px;
+  
+  bottom: 5px;
+  right: 4px;
+}
+a.mini:hover,
+a.mini.hover {
+  background-position: 0 -33px;
+
+}
+.wii a.mini:hover,
+.wii a.mini.hover,
+#sidebar .menu li.wii a.mini:hover,
+#sidebar .menu li.wii a.mini.hover {
+  background-position: 0 0;
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/icons/small-blue-link.gif') !important;
+}
+.ds a.mini:hover,
+.ds a.mini.hover,
+#sidebar .menu li.ds a.mini:hover,
+#sidebar .menu li.ds a.mini.hover {
+  background-position: 0 0;
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/icons/small-pink-link.gif') !important;
+}
+
+a.level1{
+	background:transparent url(/web/20100619185714im_/http://www.nintendo.com/images/home/link_arrow.gif) no-repeat 0px 4px;
+	padding:0pt 0pt 0pt 10px;
+}
+a.level1:hover{
+	background:transparent url(/web/20100619185714im_/http://www.nintendo.com/images/home/link_arrow.gif) no-repeat scroll 0px -146px;
+}
+
+a.level2{
+	background:transparent url(/web/20100619185714im_/http://www.nintendo.com/images/home/link_arrow_blue.gif) no-repeat scroll 0px 4px;
+	padding:0pt 0pt 0pt 10px;
+}
+a.level2:hover{
+	background-position: 0px -146px;
+}
+
+/* ----- TABLES ----- */
+
+table{
+width:;
+margin:;
+padding:;
+frame:;
+text-align:;
+}
+caption{
+font:;
+color:;
+position:;
+text-align:;
+display:;
+}
+thead{
+font:;
+color:;
+text-align:;
+background-color:;
+margin:;
+padding:;
+}
+tbody{
+font:;
+color:;
+text-align:;
+background-color:;
+margin:;
+padding:;
+}
+tfoot{
+font:;
+color:;
+text-align:;
+background-color:;
+margin:;
+padding:;
+}
+tr{
+font:;
+color:;
+background-color:;
+}
+tr .alt{
+font:;
+color:;
+background-color:;
+}
+th{
+}
+td{
+width:;
+margin:;
+padding:;
+}
+
+/* ----- FORMS ----- */
+
+form{
+width:;
+margin:;
+padding:;
+}
+fieldset{
+border:;
+width:;
+margin:;
+padding:;
+}
+legend{
+font:;
+color:;
+margin:;
+padding:;
+}
+label{
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+input{
+border:;
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+textarea{
+border:;
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+input, textarea{
+}
+select{
+border:;
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+optgroup{
+font:;
+}
+option{
+font:;
+}
+
+/* ----- DEFINITIONS ----- */
+
+dl{
+font-size:;
+margin:;
+padding:;
+}
+dt{
+color:;
+margin:;
+padding:;
+}
+dd{
+color:;
+margin:;
+padding:0 0 0 50px;
+}
+
+
+
+
+
+
+
+
+
+/*-------- Vertical Alignment ---------*/
+.vertAlign1{
+	/* Good Browsers*/
+	display: table; 
+	overflow: hidden;
+
+	/*IE Kluudge*/
+	#position: relative; 
+	
+	float:left;
+	height:300px;
+	width:465px;
+}
+
+.vertAlign2{
+	/* Good Browsers*/
+	display: table-cell; 
+	vertical-align: middle;
+	
+	/*IE Kluudge*/
+	#position: absolute;
+	#top: 50%;
+}
+
+.vertAlign3{
+	/*IE Kluudge*/
+	#position: relative;  
+	#top: -50%;
+}
+
+
+.link_rightalign {
+	float:right;
+	margin-right:20px; 
+}
+
+li._1.0 {
+	background-color:#e8e8e8;
+}
+
+/**
+ * No Flash styles
+ * @description What to show when Flash is not installed
+ */
+
+.noFlash {
+background: transparent url(/web/20100619185714im_/http://www.nintendo.com/images/interface/no-flash-bkd.png) no-repeat;
+height:151px;
+left:36px;
+padding:23px 26px;
+position:absolute;
+top:27px;
+width:210px;
+z-index:900;
+display:inline;
+visibility: hidden; /* Will be set to visible if SWFObject fails */
+}
+.noFlash p{
+	margin-bottom:5px;
+}
+
+/**
+ * Major Promo Styles for the landing pages
+ */
+ 
+#body_wii #majorPromo,
+#body_ds #majorPromo,
+#body_games #majorPromo {
+  margin-left: -5px;
+  margin-right: -6px;
+  margin-top: -4px;
+  margin-bottom: -9px;
+	
+  position: relative;
+  float: right;
+}
+#body_wii #majorPromo a.more,
+#body_ds #majorPromo a.more,
+#body_games #majorPromo a.more {
+  bottom: 9px;
+  right: 8px;
+}
+
+/**
+ * Video Datasender
+ */
+ 
+#video_datasender {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  line-height: 0;
+}
+
+
+
+
+
+/**
+ * Global navigation styles
+ */
+ 
+/**
+* Image replacement styles
+*/
+
+#primaryNav li.home a,
+#primaryNav li.major a {
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height: 0px !important;
+}
+
+/**
+* Brand link styles
+*/
+
+#primaryNav li.home {
+ display: block;
+ position: absolute;
+
+ z-index: 1;
+
+ top: 21px;
+ left: 65px;
+
+ width: 110px;
+ height: 26px;
+}
+
+#primaryNav li.home a {
+ display: block;
+ background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/logo_head.png');
+ padding:26px 0 0 0;
+ margin-top: 0;
+ background-position: 0 0;
+}
+
+/**
+ * Global Navigation Container styles
+ */
+#globalNavigation {
+  position:relative;
+  height: 111px;
+  width: 996px;
+  margin: 0px -8px 101px -8px;
+  background:transparent url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/global_header_background.png') no-repeat;
+}
+#body_home #globalNavigation {
+  margin: 0px -8px;
+}
+/**
+ * Link layout styles
+ */
+ 
+#primaryNav {
+height:70px;
+padding-left: 234px;
+
+list-style: none;
+position: relative;
+
+}
+
+#primaryNav li.major a {
+ background-position: 0 -76px;
+ background-repeat: no-repeat;
+}
+#primaryNav li.major a:hover{
+  background-position: 0 -38px;
+}
+#primaryNav li.major {
+ float: left;
+}
+
+#primaryNav li.major a {
+ display: block;
+ margin-top: 32px;
+ padding: 38px 0 0 0;
+}
+
+#primaryNav li.wii a {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/en/tab_wii.png');
+  width: 62px;
+}
+#primaryNav li.ds a {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/en/tab_nintendo_ds.png');
+  width: 119px;
+}
+#primaryNav li.games a {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/en/tab_games.png');
+  width: 85px;
+}
+
+#primaryNav li.club a {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/en/btn-tab-club-nintendo.png');
+  width: 132px;
+}
+
+#primaryNav li.product_registration a {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/en/tab_product_registration.png');
+  width: 169px;
+}
+#primaryNav li.support a {
+  background-image: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/en/tab_support.png');
+  width: 92px;
+}
+
+body.wii #primaryNav li.major.wii a,
+body.ds #primaryNav li.major.ds a,
+body.games #primaryNav li.major.games a,
+body.product #primaryNav li.major.product a,
+body.support #primaryNav li.major.support a {
+  background-position: 0 0;
+  text-decoration: underline; /* Tag the tab as the active one */
+}
+
+/* TouchGen / Wifi body class includes ds/wii, this resets the glow to games */
+
+#body_games_touchgeneration_ds #primaryNav li.major.ds a,
+#body_games_touchgeneration_wii #primaryNav li.major.wii a,
+#body_games_wifi_ds #primaryNav li.major.ds a,
+#body_games_wifi_wii #primaryNav li.major.wii a{
+	text-decoration:none;
+}
+
+#body_games_touchgeneration_ds #primaryNav li.major.ds a:hover,
+#body_games_touchgeneration_wii #primaryNav li.major.wii a:hover,
+#body_games_wifi_ds #primaryNav li.major.ds a:hover,
+#body_games_wifi_wii #primaryNav li.major.wii a:hover {
+  background-position: 0 -38px;
+}
+
+#body_games_touchgeneration_wii #primaryNav li.major.wii a,
+#body_games_touchgeneration_ds #primaryNav li.major.ds a,
+#body_games_wifi_wii #primaryNav li.major.wii a,
+#body_games_wifi_ds #primaryNav li.major.ds a{
+	background-position: 0 -76px;
+	font-family: none;
+}
+#primaryNav .my_nintendo {
+top: 20px;
+font-size:1.0em; /* 10 points */
+right:32px;
+position: absolute;
+}
+#primaryNav .my_nintendo a {
+color:#0090C7;
+}
+#primaryNav .my_nintendo a:hover {
+color:#00587A;
+}
+
+/**
+ * Glow styles
+ */
+ 
+div.glow,
+div.glow div {
+ position: absolute;
+ width: 100px;
+ z-index: 1;
+}
+
+div.glow div {
+  bottom: 0;
+  height: 35px;
+}
+div.glow {
+  top: 70px;
+  left: 260px;
+  
+  overflow: hidden;
+  height: 0;
+}
+div.glow div.left {
+  background: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/glow_left.png') no-repeat;
+  width: 50px;
+}
+div.glow div.right {
+  margin-left: 50px;
+  width: 49px;
+  background: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/glow_right.png') no-repeat;
+}
+
+/**
+ * Secondary nav
+ */
+.secondaryNav{
+    height:45px;
+}
+.secondaryNav li{
+float:left;
+}
+
+.secondaryNav li a{
+background:transparent url(/web/20100619185714im_/http://www.nintendo.com/images/sub-nav-arrow.png) no-repeat 0px 10px;
+color:#a3c0c0;
+font-size:1.2em;
+padding:15px 17px 11px 25px;
+display:block;
+}
+.secondaryNav li a:hover{
+color:#6a9393;
+background:transparent url(/web/20100619185714im_/http://www.nintendo.com/images/sub-nav-arrow.png) no-repeat 0px -140px;
+}
+.secondaryNav li.locator{
+/*float:right;*/
+position: absolute;
+right:0;
+top:0;
+text-align:center;
+width:223px;
+padding:0px 0px 0px 0px;
+/*margin-right:-5px;*/
+}
+
+.secondaryNav li.locator a{
+background:transparent url(/web/20100619185714im_/http://www.nintendo.com/images/games/home/where-to-buy.png) no-repeat 0px 0px;
+
+color:#555555;
+font-weight:100;
+padding:0px 0px 7px 55px;
+margin-top:5px;
+line-height:26px;
+text-align:left;
+width:168px;
+_width:223px;
+}
+.secondaryNav li.locator a:hover  {
+background:transparent url(/web/20100619185714im_/http://www.nintendo.com/images/games/home/where-to-buy.png) no-repeat scroll 0px 0px;
+}
+
+/**
+ * Breadcrumb
+ */
+
+#breadcrumb {
+  position: relative;
+  z-index: 10;
+	margin-top: 14px;
+	padding-left: 8px;
+}
+#breadcrumb p {
+  font-weight: bold;
+  width: auto;
+  line-height: 1.2em;
+  margin-right: 5px;
+}
+#breadcrumb p,
+#breadcrumb ul {
+  float: left;
+}
+#breadcrumb ul li {
+  float: left;
+  background: url('/web/20100619185714im_/http://www.nintendo.com/images/icons/arrow_small_right.gif') left 3px no-repeat;
+  padding-left: 13px;
+  padding-right: 8px;
+  line-height: 1.2em;
+}
+#breadcrumb ul li.first {
+  background: none;
+  padding-left: 0;
+}
+#breadcrumb a {
+  color:#0090C7;
+  line-height: 1.2em;
+}
+#breadcrumb a:hover {
+  color: #00587A;
+}
+#breadcrumb,
+#breadcrumb li.last a {
+	color:#7F7F7F;
+}
+
+/**
+ * Search box styles 
+ */
+ 
+#globalSearch {
+	position:absolute;
+	right: 32px;
+	top: 39px;
+	float:left;
+	background: url('/web/20100619185714im_/http://www.nintendo.com/images/interface/global_header/search-input-background.png') no-repeat;
+	padding: 0 0 0 11px;
+}
+
+#globalSearchKeyword {
+	width:141px;
+	margin: 0 0 6px 0;
+	background: transparent;
+	border:0;
+	color:#363636;
+	font-size:1.0em; /* 10 points */
+}
+#globalSearch label.overlabel {
+	bottom:6px;
+	color:#363636;
+	font-size:1.0em; /* 10 points */
+	left:11px;
+	position:absolute;
+	z-index:1;
+}
+html.dj_safari #globalSearchKeyword {
+  visibility: hidden;
+  position: relative;
+  top: -6px;
+}
+html.dj_safari #globalSearch label.overlabel {
+  bottom: 12px;
+  left: 16px;
+}
+#globalSearch input.submit{
+	padding:0;
+	margin:0 0 0 3px;
+}
+
+/**
+ * Legal Links
+ * Those links at the bottom of the global navigation
+ */
+#legalLinks {
+bottom:0pt;
+height:40px;
+padding:0pt;
+position:absolute;
+right:8px;
+z-index:10;
+}
+#legalLinks li {
+float:right;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:12px 0pt 0pt 30px;
+}
+#legalLinks a {
+ font-size: 1.1em; /* 11 points */
+}
+
+/**
+ * Global Footer Styles
+ */
+
+#footer {
+	padding-top:50px;
+	position: relative;
+	width: 984px;
+	height: 123px;
+	background:url('/web/20100619185714im_/http://www.nintendo.com/images/home/footer-bkd.jpg') 0 50px no-repeat;
+	text-align:center;
+	color: #B3B3B3;
+	clear:both;
+	padding-left:0;
+	padding-right:0;
+	margin-left:-2px;
+}
+#footer ul{	
+	margin: 0;
+	padding: 12px 0 0 0;
+}
+#footer ul li{
+	display:inline;
+	list-style:none;
+	padding:0 10px 0 0;
+}
+#footer .footer-logo{
+	position: absolute;
+	bottom: 50px;
+	left:442px;
+}
+#footer .footer-rss{
+bottom:15px;
+position:absolute;
+right:160px;
+}
+#footer .footer-esrb{
+	bottom:15px;
+	position:absolute;
+	left:827px;
+}
+#footer .footer-esrb a {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em; /* 9 points */
+}
+#footer .footer-esrb .esrb-badge a {
+  line-height: 0;
+}
+#footer .footer-esrb p {
+  width: auto;
+}
+#footer .footerBug{
+padding-top: 55px;
+width:695px;
+margin: 0 auto;
+}
+
+#footer a {
+  color: #7D7D7D;
+}
+#footer a:hover {
+  color: #333;
+}
+
+/**
+ * Global Styles (IE6 additions)
+ * @description Hacks for IE6 compliance
+ */
+html {
+  _font-size: 50%;
+  
+}
+body {
+  _behavior:url("/web/20100619185714im_/http://www.nintendo.com/js/csshover.htc");
+  _text-align: center;
+  _font-size: 125%;
+}
+
+#container {
+	#width:996px;
+	#overflow:hidden;
+	/* padding: 0px !important;*/
+}
+
+/**
+ * Link styles
+ * @description Global overrides for <a> tags
+ */
+
+
+a.more:hover{
+  _background-position: 0 -46px;
+}
+
+a.mini:hover{
+  _background-position: 0 -33px;
+}
+
+/**
+ * No Flash styles
+ * @description What to show when Flash is not installed
+ */
+
+.noFlash{
+_height:197px;
+_width:262px;
+}
+
+/**
+ * Major Promo Styles for the landing pages
+ */
+ 
+#body_wii #majorPromo,
+#body_ds #majorPromo,
+#body_games #majorPromo {
+  _display: inline;
+  _margin-right: -6px;
+}
+#body_wii #majorPromo a.more,
+#body_ds #majorPromo a.more,
+#body_games #majorPromo a.more {
+  _right: 7px;
+  _bottom: 8px;
+}
+
+/**
+ * Global navigation styles
+ */
+ 
+/**
+ * Brand Link Styles
+ */
+#primaryNav li.home a {
+  _height: 26px !important;
+}
+
+/**
+* Link layout styles
+*/
+
+#primaryNav {
+  _height:88px;
+  _width: 992px;
+}
+
+#primaryNav li.major a {
+  _height: 38px !important;
+}
+
+
+.secondaryNav{
+	_width:996px;
+	_height: 45px;
+	_padding-top: 10px;
+}
+.secondaryNav li a {
+_padding:5px 23px 7px 16px;
+}
+.secondaryNav li.first a {
+_background-position:2px 0px;
+}
+.secondaryNav li.first a:hover {
+_background-position: 2px -150px;
+}
+.secondaryNav li a {
+_background-position:2px 0px;
+}
+.secondaryNav li a:hover {
+_background-position: 2px -150px;
+}
+.secondaryNav li.locator {
+_margin-top:-5px;
+}
+.secondaryNav li.locator a {
+_line-height:21px;
+_padding:0px 0px 7px 55px;
+}
+
+body.wii #primaryNav li.major.wii a:hover,
+body.ds #primaryNav li.major.ds a:hover,
+body.games #primaryNav li.major.games a:hover,
+body.product #primaryNav li.major.product a:hover,
+body.support #primaryNav li.major.support a:hover {
+  _background-position: 0 0;
+}
+
+
+
+/*ie7 only hackeroonies*/
+*:first-child+html ul#legalLinks li{	/*margin-top:0px;*/}/* @watch: don't remember what page this hack was for. causes a mis-alignment when on though.*/
+*:first-child+html .secondaryNav{	margin-top:-20px;}
+
+*:first-child+html #globalNavigation {
+  margin: 0px -8px 120px 0px;
+}
+/* end of ie7 rigamarole */
+
+/**
+* Glow styles
+*/
+div.glow div { _behavior: url('/web/20100619185714im_/http://www.nintendo.com/js/iepngfix.htc'); 
+
+}
+#globalSearch label.overlabel {
+#bottom:9px;
+}
+
+#breadcrumb {
+_margin-top:-2px;
+}
+
+
+/**
+ * Global Footer Styles
+ */
+
+#footer{
+	_height: 203px;
+	_width: 990px;
+	_background:url('/web/20100619185714im_/http://www.nintendo.com/images/home/footer-bkd.jpg') 0 80px no-repeat;
+	_margin-left:-2px;
+	_margin-right: -8px;
+}
+#footer ul{	
+	_margin: 0;
+	_padding: 36px 0 0 0;
+}
+#footer .footer-logo{
+	_position: absolute;
+	_bottom: 56px;
+}
+#footer .footer-rss{
+	_bottom:15px;
+	_right:165px;
+}
+#footer .footer-esrb{
+	_left:830px;
+}
+
+
+/*
+     FILE ARCHIVED ON 18:57:14 Jun 19, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:16:55 Nov 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.753
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.011
+  esindex: 0.015
+  cdx.remote: 14.999
+  LoadShardBlock: 318.756 (3)
+  PetaboxLoader3.datanode: 142.73 (4)
+  load_resource: 157.149
+  PetaboxLoader3.resolve: 78.505
+*/

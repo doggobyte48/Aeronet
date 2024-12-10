@@ -1,0 +1,200 @@
+
+    
+
+
+
+
+/**
+ * Homepage styles
+ */
+
+#body_home h1.sectionName,
+#body_home h1.sectionName {
+  display: none;
+}
+
+/* @header styles */ 
+#consolePromos h3.wii, #consolePromos h3.ds {
+	width: 490px;
+	padding: 106px 0 0 0;
+  margin: -1px -4px -5px -2px; /* shadow choke */
+
+  position: absolute;
+  top: 312px;
+} 
+#consolePromos h3.wii {
+  left: 0;
+
+	float:left;
+	overflow: hidden;
+	
+  background-image:url(https://web.archive.org/web/20100710022213im_/http://media.nintendo.com/nintendo/bin/NYim_O4NVEwhYbktPr5-Xr8aALgRqoJt/MN4VotGNx8-kWzMq-rB7E2Jup8UNIoLN.jpg);
+	background-repeat: no-repeat;
+}
+#consolePromos h3.ds {
+  left: 496px;
+
+	overflow: hidden;
+
+  background-image:url(https://web.archive.org/web/20100710022213im_/http://media.nintendo.com/nintendo/bin/QFj7L-Ck3OKf_GAfZ3Ga_4DRaba7jt64/jHccmPfMLZNgFEYpeY85l7EtMLGhm8UU.jpg);
+	background-repeat: no-repeat;
+}
+
+#majorPromos h3 {
+	width:100%;
+	height:22px;
+	margin:7px 0px 0px;
+	
+  font-weight: bold;
+  font-size:1.1em;
+	text-align:center;
+}
+
+
+
+/* @mainContent */
+#consolePromos {
+  height: 412px;
+  margin-bottom: 12px;
+
+  position: relative;
+}
+#consolePromos div.wii, #consolePromos div.ds {
+	width: 496px;
+	height: 311px;
+	margin: -3px -8px -9px -4px; /* shadow choke */
+	
+  position: absolute;
+	overflow: hidden;
+}
+#consolePromos div.wii {
+  top: 0;
+  left: 0;
+
+  float: left;
+}
+#consolePromos div.ds {
+  top: 0;
+  left: 496px;
+}
+
+
+
+/* @majorPromos */ 
+#majorPromos {
+	width: 980px;
+	margin-bottom: 12px;
+	
+	overflow: auto;
+}
+#majorPromos .promo {
+	width: 326px;
+	height: 180px;
+	
+  float: left;
+}
+#majorPromos .one {
+  width: 326px;
+
+  /*background: url(/web/20100710022213im_/http://www.nintendo.com/images/home/major-promo-1-bkd.png) no-repeat transparent;*/
+}
+#majorPromos .two {
+  /*background: url(/web/20100710022213im_/http://www.nintendo.com/images/home/major-promo-2-bkd.png) no-repeat transparent;*/
+  	float:right;
+	width:313px;
+}
+
+#majorPromos .two a.continue {
+  margin-right: 13px;
+}
+
+#majorPromos .news {
+  /*background: url(/web/20100710022213im_/http://www.nintendo.com/images/home/major-promo-1-news-bkd.png) no-repeat transparent;  */
+}
+#majorPromos .news ul {
+	height: 171px;
+	
+	overflow:auto;
+}
+#majorPromos .news li{
+  min-height:49px;
+	height:auto;
+  padding:7px 10px 0pt 0px;
+
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+
+  color:#959595;
+
+	background-color: #eeeeee;
+}
+#majorPromos .news li.zebra{
+	background-color: #f8f8f8;
+}
+#majorPromos .news li a{
+	margin-left: 12px;
+	
+	display:block;	
+}
+#majorPromos .news li span.releaseDate {
+	padding-left: 22px;
+}
+
+
+
+/* @sitePromos*/
+#sitePromos {
+  width:480px; 
+}
+
+
+
+/* @release calendar */
+#body_home #gameCalendar {
+  width:488px;
+}
+#body_home #majorPromos table{
+	width:100%;
+}
+#body_home #majorPromos table td{
+	vertical-align: middle;
+	text-align:center;
+	height:29px;
+	#height:25px;
+}
+
+#body_home #majorPromos table td.promoSpace {
+	vertical-align: middle;
+	text-align:left;
+	padding-left:8px;
+	padding-right:8px;
+	height:29px;
+	#height:25px;
+}
+#body_home #majorPromos table h3 {
+margin:0px 0px 0px;
+height:auto;
+}
+
+
+/*
+     FILE ARCHIVED ON 02:22:13 Jul 10, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:17:07 Nov 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.702
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.011
+  esindex: 0.014
+  cdx.remote: 6.785
+  LoadShardBlock: 226.513 (3)
+  PetaboxLoader3.datanode: 126.992 (4)
+  PetaboxLoader3.resolve: 146.797 (2)
+  load_resource: 66.257
+*/

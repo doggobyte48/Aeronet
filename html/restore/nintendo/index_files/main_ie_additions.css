@@ -1,0 +1,73 @@
+
+
+/**
+ * Homepage styles (IE6 additions)
+ * @description Hacks for IE6 compliance
+ */
+ 
+/**
+* Wii and Nintendo DS head promo styles
+*/
+
+#consolePromos h3.wii, #consolePromos h3.ds {
+  _height: 106px;
+}
+
+/**
+ * sitePromos
+ */
+#body_home #container{
+	_width:996px;
+}
+#body_home #sitePromos {
+	_padding:0px 0px 0px 0px;
+	_margin: 0px 0px 0px 0px;
+	_width:492px;
+}
+#body_home #sitePromos div {
+	_margin: 0 0 0 0;
+	_padding:10px 0px 0px 10px;
+}
+
+#body_home #gameCalendar {
+_width:485px;
+}
+#gameCalendar caption {
+_width:485px;
+}
+#body_home #gameCalendar table{
+_width:485px;	
+}
+
+#majorPromos .news li{
+	_height:49px;
+}
+/**
+ * minorPromos
+ */
+ 
+#minorPromos {
+  _width: 988px;
+}
+
+
+/*
+     FILE ARCHIVED ON 02:22:19 Jul 10, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:17:07 Nov 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.463
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.01
+  esindex: 0.01
+  cdx.remote: 7.601
+  LoadShardBlock: 130.023 (3)
+  PetaboxLoader3.datanode: 108.798 (4)
+  load_resource: 175.783
+  PetaboxLoader3.resolve: 91.505
+*/

@@ -1,0 +1,54 @@
+/**
+ * Site promo links
+ */
+ 
+#sitePromos h3{
+	font-size:1.1em;
+	height:21px;
+	padding:9px 0px 0px;
+	text-align:center;
+	width:100%;
+	font-weight: bold;
+}
+
+
+#sitePromos {
+  float: left;
+  top: 994px;
+  height: 182px;
+  background: url('/web/20100622002549im_/http://www.nintendo.com/images/interface/left-medium-module-background.png') no-repeat transparent;
+  padding: 0 10px 0 2px;
+}
+
+#sitePromos div {
+	float:left;
+	width: 152px;
+	margin: 0 0 0 8px;
+}
+
+#sitePromos div p {
+	margin: 2px 0 0 0;
+	overflow:hidden;
+}
+
+
+/*
+     FILE ARCHIVED ON 00:25:49 Jun 22, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:17:06 Nov 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.484
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 24.402
+  LoadShardBlock: 45.697 (3)
+  PetaboxLoader3.datanode: 92.539 (4)
+  load_resource: 112.132
+  PetaboxLoader3.resolve: 42.467
+*/
