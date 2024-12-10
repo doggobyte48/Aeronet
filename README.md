@@ -1,5 +1,5 @@
 # Aeronet
-The source of the Aeronet project
+The source of the Aeronet project, a proxy server that recreates the 2010 internet.
 ## Requirements
 A Linux computer with Ubuntu or any other distro based on Debian
 ## How to Install
