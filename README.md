@@ -18,9 +18,11 @@ Then you need to copy the `html` folder to `/var/www/` overwriting `var/www/html
 
 Then you need to copy the `hosts` folder to `/etc` overwriting the file
 
-Finally you need to copy the `sites-available' folder to `/etc/apache2` and enabling the virtural domain with the following command
+Finally you need to copy the `sites-available' folder to `/etc/apache2` and enabling the virtural domains with the following command
 
 ``sudo a2ensite istart.net.conf`` 
+
+``sudo a2ensite nintendo.com.conf`` 
 
 Then you can start the services with the following command
 
