@@ -12,7 +12,11 @@ To get your own Aeronet server running you will have to install SquidProxy and A
 **DO NOT RUN THE SERVICES YET**
 
 Instead you need to copy first squid.conf to  `etc/squid/` 
-and overwrite the the pre-existing config then you can start the services with the following command
+and overwrite the the pre-existing config.
+
+After that you need to copy the html folder to `var/www/` overwriting `var/www/html` 
+
+Then you can start the services with the following command
 
 `sudo systemctl start apache2`
 
