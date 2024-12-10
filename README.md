@@ -11,10 +11,16 @@ To get your own Aeronet server running you will have to install SquidProxy and A
 
 **DO NOT RUN THE SERVICES YET**
 
-Instead you need to copy first squid.conf to  `etc/squid/` 
+Instead you need to copy first squid.conf to  `/etc/squid/` 
 and overwrite the the pre-existing config.
 
-After that you need to copy the html folder to `var/www/` overwriting `var/www/html` 
+Then you need to copy the `html` folder to `/var/www/` overwriting `var/www/html` 
+
+Then you need to copy the `hosts` folder to `/etc` overwriting the file
+
+Finally you need to copy the `sites-available' folder to `/etc/apache2` and enabling the virtural domain with the following command
+
+``sudo a2ensite istart.net.conf`` 
 
 Then you can start the services with the following command
 
